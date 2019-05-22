@@ -30,7 +30,8 @@ body {
 }
 
 #sc-player{
-  max-height: 1vh;
+  max-width: 100%;
+  position: sticky;
 }
 
 

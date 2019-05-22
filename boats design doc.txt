@@ -1,6 +1,12 @@
 
-rgb(165, 51, 28) burnt
+  background-color: #a5331c;
+rgb(165, 51, 28) burnt 
+
+#264FF0
 (38, 79, 240) faded blue
+
+
+
 (112, 201, 14) leafy green
 
 Landing page: lightbox on poster of next show (imbedded in master image of UPCOMING SHOWS:) cycles after 30 sec
