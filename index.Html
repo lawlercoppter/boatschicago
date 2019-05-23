@@ -9,7 +9,7 @@
   <!-- <script src="scripts/flickity.pkgd.js"/> -->
   <title>⛵⛵⛵</title>
   <script src="app.js" charset="utf-8"></script>
-  <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+  <script src="scripts\node_modules\flickity\dist\flickity.pkgd.min.js"></script>
   <script>
     SC.initialize({
       client_id: 'YOUR_CLIENT_ID',
@@ -41,25 +41,26 @@
     </div>
 </header>
 
+
 <body>
   <!-- <div class="lds-ring">test<div></div><div></div><div></div><div></div></div> -->
+  <div id="carousel-container">
+    <div class="carousel" data-flickity='{ "autoPlay": true }'>
+      <div class="carousel-cell">🐱<img src="images/phil_vcr.jpg" /></div>
+      <div class="carousel-cell"><img src="images/luke_vcr.jpg" /></div>
+      <div class="carousel-cell"><img src="images/boats_redroom.jpg" /></div>
+      <div class="carousel-cell"><img src="images/kev_luke_phil_oneils.jpg" /></div>
 
-  <section id="carousel" , class=".responsive">
+      <div class="carousel-cell"><img src="images/kev_redroom.jpg" />
+        <div class="carousel-cell"><img src="images\andy_vcr_2.jpg" /></div>
 
-
-    <div>hello</div>
-    <div>goodbye</div>
-
+      </div>
     </div>
-    <div id="hoes">
-      <p>and hoes</p>
-    </div>
-
-
+  </div>
 </body>
 <footer>
-  Designed and maintained by T. Russell Schwartz
-  https://twitter.com/russ_schwartztt
+  Designed and maintained by <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
+
 
 </footer>
 
