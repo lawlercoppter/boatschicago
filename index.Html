@@ -34,7 +34,9 @@
       <img class="top-bar" id="fb-link" src="images/tempsocialmedia.png" />
       <img class="top-bar" id="twitter-link" src="images/tempsocialmedia.png" />
     </div>
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
     <div id="sc-player" class="container">
       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/595143873%3Fsecret_token%3Ds-ueRlV&color=%23685030&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -45,18 +47,37 @@
 <body>
   <!-- <div class="lds-ring">test<div></div><div></div><div></div><div></div></div> -->
   <div id="carousel-container">
-    <div class="carousel" data-flickity='{ "autoPlay": true }'>
-      <div class="carousel-cell">🐱<img src="images/phil_vcr.jpg" /></div>
-      <div class="carousel-cell"><img src="images/luke_vcr.jpg" /></div>
-      <div class="carousel-cell"><img src="images/boats_redroom.jpg" /></div>
-      <div class="carousel-cell"><img src="images/kev_luke_phil_oneils.jpg" /></div>
+    <div class="carousel" data-flickity='{ "autoPlay": 1500 , "wraparound": true, "fullscreen": true, "freescroll":true}'>
+      
+      <div class="carousel-cell" >
+        <img src="images/phil_vcr.jpg" />
+      </div>
+      
+      <div class="carousel-cell" id="rotate">
+        <img src="images/luke_vcr.jpg" />
+      </div>
+      
+      <div class="carousel-cell" id="rotate">
+        <img src="images/boats_redroom.jpg" />
+      </div>
+      
+      <div class="carousel-cell" id="rotate">
+        <img src="images/kev_luke_phil_oneils.jpg" />
+      </div>
 
-      <div class="carousel-cell"><img src="images/kev_redroom.jpg" />
-        <div class="carousel-cell"><img src="images\andy_vcr_2.jpg" /></div>
+      
+      <div class="carousel-cell" id="rotate">
+        <img src="images/kev_redroom.jpg" />
+      </div>
+      
+      <div class="carousel-cell" id="rotate">
+          <img src="images\andy_vcr_2.jpg" />
+        </div>
 
       </div>
+
     </div>
-  </div>
+  
 </body>
 <footer>
   Designed and maintained by <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
