@@ -1,7 +1,7 @@
 const full_button = document.getElementsByClassName("flickity-button-icon");
 const carousel_img = document.getElementsByClassName("cell-image");
 
-full_button.addEventListener("click", () => {
+full_button.addEventListener("click", function() {
   fullScreenImage();
 });
 
