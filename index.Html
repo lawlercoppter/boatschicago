@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <HTML>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="boats.css" />
-  <link rel="stylesheet" href="css\flickity.css" />
-  <!-- <script src="scripts/flickity.pkgd.js"/> -->
-  <title>⛵⛵⛵</title>
   
-  <script src="scripts\node_modules\flickity\dist\flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+  <link rel="stylesheet" href="scripts/lightbox2-master/dist/css/lightbox.css" />
+  <link rel="stylesheet" type="text/css" href="boats.css" />
+  <title>⛵⛵⛵</title>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-
-    </script>
+  
 </head>
-
+<body>
 <!-- Nav bar + sound cloud  -->
 <header class="container">
   <div id="nav-bar" class="row">
@@ -33,56 +28,85 @@
     </div>
     <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 
-    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    
     <div id="sc-player" class="container">
-      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+      <!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/595143873%3Fsecret_token%3Ds-ueRlV&color=%23685030&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    </div>
+     -->
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657937320&color=%23654498&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+  </div>
+  <button type="button" class="btn btn-dark">Dark</button>
 </header>
 
 
-<body>
-  <!-- <div class="lds-ring">test<div></div><div></div><div></div><div></div></div> -->
-  <div id="carousel-container">
-      <div class="carousel" data-flickity='{ "autoPlay": 1500 , "wraparound": true, "fullscreen": true, "freescroll":true}'>
-      
-          <div class="carousel-cell" >
-            
-            <img src="images/phil_vcr.jpg" class="cell-image"/>
+
+
+
+  <div id="carousel-container" class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <!--Begin carousel Items -->
+        <div class="carousel-inner">
           
-          </div>
-          
-          <div class="carousel-cell">
-            <img src="images/luke_vcr.jpg" class="cell-image"/>
-          </div>
-          
-          <div class="carousel-cell">
-            <img src="images/boats_redroom.jpg" class="cell-image"/>
-          </div>
-          
-          <div class="carousel-cell">
-            <img src="images/kev_luke_phil_oneils.jpg" class="cell-image"/>
-          </div>
-    
-          
-          <div class="carousel-cell">
-            <img src="images/kev_redroom.jpg" class="cell-image"/>
-          </div>
-          
-          <div class="carousel-cell">
-              <img src="images\andy_vcr_2.jpg" class="cell-image"/>
-            </div>
-            
-    
+
+          <div class="carousel-item active">
+            <a href="images/phil_vcr.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/phil_vcr.jpg" alt="First slide"></a>
           </div>
 
+
+
+          <div class="carousel-item">
+            <a href="images/luke_vcr.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/luke_vcr.jpg" alt="Second slide"></a>
+          </div>
+
+
+          <div class="carousel-item">
+            <a href="images/andy_vcr_2.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/andy_vcr_2.jpg" alt="Third slide"></a>
+          </div>
+        </div>
+        <!--End Carousel Items-->
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
     </div>
+
+
+
+
     <!-- <img src="images/kev_luke_phil_oneils.jpg" class="cell-image"/> -->
-</body>
+
 <footer>
   Designed and maintained by <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
 
 
 </footer>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"
+></script>
+
+<script
+src="bootstrap-4.3.1-dist/js/bootstrap.min.js"
+charset="utf-8"
+></script>
 <script src="app.js" charset="utf-8"></script>
+<script src="scripts/lightbox2-master/dist/js/lightbox.js"></script>
+</body>
+
 </HTML>
