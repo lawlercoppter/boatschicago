@@ -11,6 +11,20 @@ body {
   .top-bar {
     height: auto;
   }
+  .carousel-img {
+    max-height: 30%;
+    width: auto;
+  }
+  #nav-buttons-right .top-bar {
+    visibility: hidden;
+  }
+  #nav-buttons-left .top-bar {
+    visibility: hidden;
+  }
+
+  .navbar-link {
+    display: none;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -25,7 +39,8 @@ body {
 }
 .carousel-item {
   vertical-align: middle;
-  height: 100%;
+  max-height: 500px;
+  width: auto;
   text-align: center;
 }
 .carousel-item img {
@@ -46,8 +61,9 @@ body {
 }
 
 #sc-player {
-  max-width: 50%;
+  max-width: 75%;
   position: sticky;
+  max-height: 300px;
 }
 
 @media (max-width: 991px) {
