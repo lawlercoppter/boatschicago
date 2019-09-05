@@ -14,17 +14,51 @@
 <body>
 <!-- Nav bar + sound cloud  -->
 <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  d-lg-none d-xl-none">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
   <div id="nav-bar" class="row">
-    <div id="nav-buttons-left" class="col-md-4">
-      <img class="top-bar" id="twitch-link" src="images/tempsocialmedia.png" />
-      <img class="top-bar" id="insta-link" src="images/tempsocialmedia.png" />
+    <div id="nav-buttons-left" class="col-lg-4 d-none d-lg-block">
+      <img class="top-bar social-link" id="twitch-link" src="images/facebookboat.svg" /> <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Frussell-schwartz&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
+      <img class="top-bar social-link" id="insta-link" src="images/facebookboat.svg" />
     </div>
-    <div id="band-name" class="col-md-4">
+    <div id="band-name" class="col-lg-4">
       <img class="top-bar" id=" logo" src="images/logotemp.jpg" />
     </div>
-    <div id="nav-buttons-right" class="col-md-4" >
-      <a href="https://www.facebook.com/BoatsRock/" class="navbar-link" target="_blank" ><img class="top-bar" id="fb-link" src="images/tempsocialmedia.png" /></a>
-      <img class="top-bar" id="twitter-link" src="images/tempsocialmedia.png" />
+    <div id="nav-buttons-right" class="col-lg-4 d-none  d-lg-block" >
+      <!-- <a href="https://www.facebook.com/BoatsRock/" class="navbar-link" target="_blank" > --><img class="top-bar social-link" id="fb-link" src="images/facebookboat.svg" />
+      <img class="top-bar social-link" id="twitter-link" src="images/twitterboat.svg" />
     </div>
 
 
