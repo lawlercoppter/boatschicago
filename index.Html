@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <HTML>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-<head>
-  <meta charset="utf-8" />
-  
-  <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.min.css" />
-  <link rel="stylesheet" href="scripts/lightbox2-master/dist/css/lightbox.css" />
-  <link rel="stylesheet" type="text/css" href="boats.css" />
-  <title>⛵⛵⛵</title>
+  <head>
+    <meta charset="utf-8" />
 
-  
-</head>
-<body>
-<!-- Nav bar + sound cloud  -->
-<header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  d-lg-none d-xl-none">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="scripts/lightbox2-master/dist/css/lightbox.css"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="boats.css" />
+    <title>⛵⛵⛵</title>
+  </head>
+  <body>
+    <span
+      ><img src="images/WAVE 1.svg" height="120%" width="120%" id="waves"
+    /></span>
+
+    <!-- Nav bar + sound cloud  -->
+    <header class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light  d-lg-none d-xl-none"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-
-
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,99 +70,142 @@
         </div>
       </nav>
 
-  <div id="nav-bar" class="row">
-    <div id="nav-buttons-left" class="col-lg-4 d-none d-lg-block">
-      <img class="top-bar social-link" id="twitch-link" src="images/facebookboat.svg" /> <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Frussell-schwartz&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
-      <img class="top-bar social-link" id="insta-link" src="images/facebookboat.svg" />
-    </div>
-    <div id="band-name" class="col-lg-4">
-      <img class="top-bar" id=" logo" src="images/BoatsLogo.svg" style="max-height: 375px !important" />
-    </div>
-    <div id="nav-buttons-right" class="col-lg-4 d-none  d-lg-block" >
-      <!-- <a href="https://www.facebook.com/BoatsRock/" class="navbar-link" target="_blank" > --><img class="top-bar social-link" id="fb-link" src="images/facebookboat.svg" />
-      <img class="top-bar social-link" id="twitter-link" src="images/twitterboat.svg" />
-    </div>
+      
+      <BUTTON class="button"></BUTTON>
+      <div id="sc-player" class="container" data-toggle:>
+        <iframe
+          width="100%"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657937320&color=%23654498&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        ></iframe>
+      </div>
+      <!-- <button type="button" class="btn btn-dark" data-toggle="collapse" data-target=".nav-buttons-right">Dark</button> -->
+    </header>
 
+    <div id="nav-bar" class="row">
+        <div id="nav-buttons-left" class="col-lg-4 d-none d-lg-block">
+          <img
+            class="top-bar social-link"
+            id="twitch-link"
+            src="images/facebookboat.svg"
+          />
+          <img
+            class="top-bar social-link"
+            id="insta-link"
+            src="images/facebookboat.svg"
+          />
+        </div>
+        <div id="band-name" class="col-lg-4">
+          
+        <img
+          class="top-bar"
+          id=" logo"
+          src="images/BoatsLogo.svg"
+          style="max-height: 375px !important"
+        />
+      </div>
+      <div id="nav-buttons-right" class="col-lg-4 d-none  d-lg-block">
+        <img
+          class="top-bar social-link"
+          id="fb-link"
+          src="images/facebookboat.svg"
+        />
+        <img
+          class="top-bar social-link"
+          id="twitter-link"
+          src="images/twitterboat.svg"
+        />
+      </div>
 
-    
-    <div id="sc-player" class="container">
-      <!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/595143873%3Fsecret_token%3Ds-ueRlV&color=%23685030&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-     -->
-    <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657937320&color=%23654498&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-  </div>
-  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target=".nav-buttons-right">Dark</button>
-</header>
-
-
-
-
-
-  <div id="carousel-container" class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!--begin carousel-->
+    <div id="carousel-container" class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="false"
+      >
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <!--Begin carousel Items -->
         <div class="carousel-inner">
-          
-
           <div class="carousel-item active">
-            <a href="images/phil_vcr.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/phil_vcr.jpg" alt="First slide"></a>
+            <a href="images/phil_vcr.jpg" data-lightbox="bandpics"
+              ><img
+                class="carousel-img"
+                src="images/phil_vcr.jpg"
+                alt="First slide"
+            /></a>
           </div>
 
-
-
           <div class="carousel-item">
-            <a href="images/luke_vcr.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/luke_vcr.jpg" alt="Second slide"></a>
+            <a href="images/luke_vcr.jpg" data-lightbox="bandpics"
+              ><img
+                class="carousel-img"
+                src="images/luke_vcr.jpg"
+                alt="Second slide"
+            /></a>
           </div>
 
-
           <div class="carousel-item">
-            <a href="images/andy_vcr_2.jpg" data-lightbox="bandpics"><img class="carousel-img" src="images/andy_vcr_2.jpg" alt="Third slide"></a>
+            <a href="images/andy_vcr_2.jpg" data-lightbox="bandpics"
+              ><img
+                class="carousel-img"
+                src="images/andy_vcr_2.jpg"
+                alt="Third slide"
+            /></a>
           </div>
         </div>
         <!--End Carousel Items-->
 
-
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-
     </div>
-
-
-
+    <!--end carousel-->
 
     <!-- <img src="images/kev_luke_phil_oneils.jpg" class="cell-image"/> -->
 
-<footer>
-  Designed and maintained by <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
+    <footer>
+      Designed and maintained by
+      <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
-
-</footer>
-<script
-src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"
-></script>
-
-<script
-src="bootstrap-4.3.1-dist/js/bootstrap.min.js"
-charset="utf-8"
-></script>
-<script src="app.js" charset="utf-8"></script>
-<script src="scripts/lightbox2-master/dist/js/lightbox.js"></script>
-</body>
-
+    <script
+      src="bootstrap-4.3.1-dist/js/bootstrap.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="app.js" charset="utf-8"></script>
+    <script src="scripts/lightbox2-master/dist/js/lightbox.js"></script>
+  </body>
 </HTML>

@@ -37,20 +37,20 @@
    id="namedview7"
    showgrid="false"
    inkscape:zoom="2.5"
-   inkscape:cx="151.625"
+   inkscape:cx="86.625"
    inkscape:cy="205.5"
-   inkscape:window-x="1912"
+   inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
 <g
    transform="translate(0.000000,570.000000) scale(0.100000,-0.100000)"
    id="g4"
-   style="fill:#1977f3;fill-opacity:1">
+   style="fill:#1977f3;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none">
 	<path
    d="M2723.164,5314.599c-11.904-28.003-51.797-126.699-88.906-219.102c-37.09-92.402-121.797-296.797-186.895-455   c-172.207-414.404-330.4-798.701-488.604-1186.494c-76.299-186.904-213.496-520.801-304.497-742.012   c-276.499-668.496-282.1-683.183-271.602-711.894c2.1-7.002,9.102-18.203,14.697-24.502c9.805-11.904,49.004-12.598,639.805-12.598   h628.599v-46.201v-46.895l-290.498,3.496l-290.503,3.496l-42.7-75.586l-43.398-74.902l-42.7-4.209   c-76.997-7.705-304.497-18.193-520.102-22.393c-168.696-4.209-212.1-7.002-212.1-14.004c0-7.705,58.804-224.004,81.201-298.203   c3.501-11.895,69.302-12.598,1258.603-12.598c1075.889,0,1258.604,1.406,1279.6,9.805   c55.293,23.096,123.203,86.094,183.398,167.998c53.203,73.506,112.695,217.695,107.793,261.797   c-2.09,18.896-2.09,18.896-61.592,18.896c-32.9,0-93.096-2.793-134.404-6.299c-53.203-4.199-75.596-3.506-75.596,1.396   c0,24.502-600.595,1714.995-835.107,2349.897c-90.996,245.005-123.203,327.603-135.801,340.898   c-14.688,16.801-35,16.098-44.092-1.401c-6.299-11.895-2.1-25.898,19.6-75.596c79.805-176.401,132.305-428.404,159.59-757.398   c26.611-317.109-5.586-797.3-74.189-1106.694c-35-158.203-84.697-318.496-128.096-412.305l-17.5-38.496l-0.703,1610.688   c-0.703,1242.5-2.803,1612.099-9.102,1618.398c-4.902,4.902-18.203,8.403-30.801,8.403   C2745.566,5365,2742.763,5362.197,2723.164,5314.599z M3064.765,1916.797c263.896-26.602,500.498-63.701,608.301-95.898   c29.395-9.102,28.691-9.805-73.496-17.5c-57.402-4.902-117.617-8.398-133.711-8.398s-113.398,19.6-216.992,42.695l-187.607,43.398   l-127.393-4.199l-128.105-4.199v33.613v34.287l44.102-3.496C2873.662,1935.703,2970.263,1925.898,3064.765,1916.797z"
    id="path2"
-   style="fill:#1977f3;fill-opacity:1" />
+   style="fill:#1977f3;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none" />
 </g>
 <flowRoot
    xml:space="preserve"
@@ -152,6 +152,7 @@
      x="212.84404"
      y="318.14459" /></text>
 
+
 </g><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -162,6 +163,7 @@
      id="tspan4610"
      x="207.5"
      y="549.16742" /></text>
+
 
 <text
    xml:space="preserve"
@@ -174,6 +176,7 @@
      x="195"
      y="548.66742" /></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -184,6 +187,7 @@
      id="tspan4618"
      x="197.2"
      y="548.36743" /></text>
+
 
 <text
    xml:space="preserve"
@@ -196,6 +200,7 @@
      x="196.8"
      y="550.36743" /></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -205,7 +210,8 @@
      sodipodi:role="line"
      id="tspan51"
      x="210.39999"
-     y="552.96002"></tspan></text>
+     y="552.96002" /></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -215,7 +221,8 @@
      sodipodi:role="line"
      id="tspan55"
      x="212"
-     y="553.35999"></tspan></text>
+     y="553.35999" /></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
@@ -226,4 +233,5 @@
      id="tspan59"
      x="204"
      y="374.79999">f</tspan></text>
+
 </svg>

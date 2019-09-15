@@ -1,9 +1,8 @@
 /*Document Wide*/
 
-header {
-  border-bottom: #445566;
-  max-height: 150px;
-  padding: 12px;
+html,
+body {
+  height: auto;
 }
 
 body {
@@ -12,24 +11,16 @@ body {
   background-repeat: repeat;
 }
 
-footer {
-  background: white;
-  border: solid 3px #666444;
-  text-align: center;
-  font-size: 11px;
-}
-
 #waves {
   opacity: 66%;
   z-index: -1;
-  position: fixed;
-  overflow-clip-box: hidden;
+  position: absolute;
 }
 
 /*MEDIA QUERIES*/
 @media (max-width: 991px) {
   .top-bar {
-    /* height: auto; */
+    height: auto;
   }
 }
 
@@ -39,26 +30,41 @@ footer {
   }
 }
 
+footer {
+  background: white;
+  border: solid 3px #666444;
+  text-align: center;
+  font-size: 11px;
+}
+
 .social-link {
   max-height: 100px;
 }
 
+.carousel-inner {
+  /*max-width: 700px;*/
+  min-height: 500px;
+}
+
 .carousel-item {
   vertical-align: middle;
+  height: 500px;
+  /*width: auto;*/
   text-align: center;
-  background: rgba(0, 0, 0, 0.25);
+
+  background: #222;
 }
 
 @media (max-heigh: 680px) {
   .carousel-item {
-    /* height: 360px; */
+    height: 360px;
     overflow: hidden;
   }
 }
 
 .carousel-item img {
+  height: 100%;
   width: auto;
-  max-height: 375px;
 }
 
 @media (max-width: 991px) {
@@ -67,8 +73,8 @@ footer {
     max-height: 30%;
     width: auto;
     */
-    /* height: auto;
-    width: 100%; */
+    height: auto;
+    width: 100%;
   }
 }
 
@@ -83,6 +89,7 @@ footer {
 #sc-player {
   max-width: 75%;
   position: sticky;
+  max-height: 300px;
 }
 
 @media (max-width: 991px) {
@@ -96,11 +103,6 @@ footer {
 #logo {
   margin-left: auto;
   margin-right: auto;
-}
-#band-name {
-  backdrop-filter: blur(3px);
-  border-radius: 75%;
-  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.49));
 }
 
 footer {
