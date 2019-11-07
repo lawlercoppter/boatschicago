@@ -1,7 +1,7 @@
 /*Document Wide*/
-* {
+/* * {
   border: solid 3px red;
-}
+} */
 header {
   border-bottom: #445566;
   /* max-height: 150px; */
@@ -21,6 +21,14 @@ footer {
   border: solid 3px #666444;
   text-align: center;
   font-size: 11px;
+
+  /* was in other footer tag, need to compare the two)*/
+  position: fixed;
+
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 #waves {
@@ -31,18 +39,76 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 991px) {
-  .top-bar {
-    /* height: auto; */
-  }
-}
 
 @media (min-width: 1000px) {
-  #nav-buttons-right {
+  /* #nav-buttons-right {
     left: 200px;
+  } */
+}
+
+@media (max-height: 680px) {
+  .carousel-item {
+    overflow: hidden;
   }
 }
 
+@media (max-width: 991px) {
+  #band-name {
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+  }
+  #sc-player {
+    display: hidden;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-img {
+  }
+}
+
+/****nav_bar****/
+
+.top-bar {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  /* max-width: 100%; */
+}
+#band-name {
+  backdrop-filter: blur(3px);
+  border-radius: 75%;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.49));
+}
+#sc-player {
+  max-width: 75%;
+  position: sticky;
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.drop-down-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row: 50px 50px;
+  grid-column: 50px 50px;
+  grid-row-gap: 2px;
+  text-align: center;
+}
+.drop-down-item {
+  border: 3px solid black;
+}
+
+/*
+Begin Lightbox/carousel custom styles
+*/
 .social-link {
   max-height: 100px;
 }
@@ -53,62 +119,11 @@ footer {
   background: rgba(0, 0, 0, 0.25);
 }
 
-@media (max-heigh: 680px) {
-  .carousel-item {
-    overflow: hidden;
-  }
-}
-
 .carousel-item img {
   width: auto;
   max-height: 375px;
 }
 
-@media (max-width: 991px) {
-  .carousel-img {
-  }
-}
-
-.top-bar {
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
-  /* max-width: 100%; */
-}
-
-#sc-player {
-  max-width: 75%;
-  position: sticky;
-}
-
-@media (max-width: 991px) {
-  #nav-buttons-left,
-  #band-name,
-  #nav-buttons-right {
-    text-align: center;
-  }
-}
-
-#logo {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height: 100%;
-}
-#band-name {
-  backdrop-filter: blur(3px);
-  border-radius: 75%;
-  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.49));
-}
-
-footer {
-  position: fixed;
-  /* height: 50px; */
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-}
 /*Light Box + carousel styling*/
 
 body {
