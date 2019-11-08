@@ -6,7 +6,6 @@ header {
   border-bottom: #445566;
   /* max-height: 150px; */
   width: auto;
-  border: 3px solid black;
   margin: 30px;
 }
 
@@ -57,9 +56,6 @@ footer {
     width: 350px;
     display: inline-block;
     text-align: center;
-  }
-  #sc-player {
-    display: hidden;
   }
 }
 
