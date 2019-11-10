@@ -18,65 +18,98 @@
     /></span>
 
     <!-- Nav bar + sound cloud  -->
-    <header >
+    <header>
       <div class="container">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark  d-lg-none d-xl-none"
-      >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark  d-lg-none d-xl-none"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-       
+          <div
+            class="collapse navbar-collapse navbar-dark bg-dark"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto drop-down-container">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/BoatsRock/"
+                  taget="_blank"
+                  ><img
+                    class="social-link drop-down-item"
+                    id="fb-link"
+                    src="images/facebookboat.svg"
+                /></a>
+              </li>
 
-        <div class="collapse navbar-collapse navbar-dark bg-dark" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto drop-down-container">
-            
-            <li class="nav-item"> 
-              <a class="nav-link" href="https://www.facebook.com/BoatsRock/" taget="_blank"><img
-                class="social-link drop-down-item"
-                id="fb-link"
-                src="images/facebookboat.svg"
-              /></a>
-            </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/BoatsRock/"
+                  taget="_blank"
+                  ><img
+                    class="social-link drop-down-item"
+                    id="fb-link"
+                    src="images/facebookboat.svg"
+                /></a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/BoatsRock/" taget="_blank"><img
-                class="social-link drop-down-item"
-                id="fb-link"
-                src="images/facebookboat.svg"
-              /></a>
-            </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/BoatsRock/"
+                  taget="_blank"
+                  ><img
+                    class="social-link drop-down-item"
+                    id="fb-link"
+                    src="images/facebookboat.svg"
+                /></a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/BoatsRock/" taget="_blank"><img
-                class="social-link drop-down-item"
-                id="fb-link"
-                src="images/facebookboat.svg"
-              /></a>
-            </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/BoatsRock/"
+                  taget="_blank"
+                  ><img
+                    class="social-link drop-down-item"
+                    id="fb-link"
+                    src="images/facebookboat.svg"
+                /></a>
+              </li>
+            </ul>
+            <div id="sc-player-m">
+              <iframe
+                width="100%"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657937320&color=%23654498&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+              ></iframe>
+            </div>
+          </div>
+        </nav>
 
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/BoatsRock/" taget="_blank"><img
-                class="social-link drop-down-item"
-                id="fb-link"
-                src="images/facebookboat.svg"
-              /></a>
-            </li>
-           
+        <div class="player-container d-none d-lg-block">
+          <button
+            type="button"
+            id="sc-button"
+            class="btn btn-secondary"
+            data-toggle="collapse"
+            href="#sc-player"
+          ></button>
 
-
-
-          </ul>
-          <div id="sc-player-m" >
+          <div id="sc-player" class="container collapse">
             <iframe
               width="100%"
               scrolling="no"
@@ -86,48 +119,31 @@
             ></iframe>
           </div>
         </div>
-      </nav>
-
-     <div class="player-container d-none d-lg-block"> 
-      <button type="button" id="sc-button" class="btn btn-secondary"data-toggle="collapse" href="#sc-player"></button>
-      
-      <div id="sc-player" class="container collapse" >
-        <iframe
-          width="100%"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657937320&color=%23654498&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        ></iframe>
       </div>
-    </div>
-  </div> 
     </header>
-
+<!--Begin Desktop Nav-->
     <div id="nav-bar" class="row">
-        <div id="nav-buttons-left" class="col-lg-4 d-none d-lg-block text-right">
-          <img
-            class="top-bar social-link"
-            id="twitch-link"
-            src="images/facebookboat.svg"
-          />
-          <img
-            class="top-bar social-link"
-            id="insta-link"
-            src="images/facebookboat.svg"
-          />
-        </div>
+      <div id="nav-buttons-left" class="col-lg-4 d-none d-lg-block text-right">
+        <a href="twitch.tv" target="_blank"><img
+          class="top-bar social-link"
+          id="twitch-link"
+          src="images/Sailboat_twitch.svg"
+        /></a>
         
-        <div id="logo-container" class="col-lg-4 text-center">
-        <div id="band-name">  
+        <a href="https://www.instagram.com/thebandboats/" target="_blank">
         <img
-          
-          id="logo"
-          src="images/BoatsLogo.svg"
-          
+          class="top-bar social-link"
+          id="insta-link"
+          src="images/Sailboat_insta.svg"
         />
+      </a>
       </div>
-    </div>
+
+      <div id="logo-container" class="col-lg-4 text-center">
+        <div id="band-name">
+          <img id="logo" src="images/BoatsLogo.svg" />
+        </div>
+      </div>
       <div id="nav-buttons-right" class="col-lg-4 d-none  d-lg-block text-left">
         <img
           class="top-bar social-link"
@@ -141,115 +157,133 @@
         />
       </div>
 
-    <!--begin carousel-->
-    <div id="carousel-container" class="container">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-        data-interval="false"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        </ol>
+<!--End Desktop Nav-->
 
+      <!--begin carousel-->
+      <div id="carousel-container" class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="false"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            
+          </ol>
 
+          <!--Begin carousel Items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <img
+                  class="carousel-img"
+                  src="images\carousel\set_sail_all.jpg"
+                  alt="First slide"
+              />
+            </div>
 
+            <div class="carousel-item">
+              <a
+                href="images/carousel/andy_kev_luke_set_sail.jpg"
+                data-lightbox="bandpics"
+                ><img
+                  class="carousel-img"
+                  src="images/carousel/andy_kev_luke_set_sail.jpg"
+                  alt="Second slide"
+              /></a>
+            </div>
 
+            <div class="carousel-item">
+              <a
+                href="images\carousel\kev_set_sail2.jpg"
+                data-lightbox="bandpics"
+                ><img
+                  class="carousel-img"
+                  src="images\carousel\kev_set_sail2.jpg"
+                  alt="Third slide"
+              /></a>
+            </div>
 
+            <div class="carousel-item">
+              <a
+                href="images/carousel/phil_set_sail_2.jpg"
+                data-lightbox="bandpics"
+                ><img
+                  class="carousel-img"
+                  src="images/carousel/phil_set_sail_2.jpg"
+                  alt="Fourth slide"
+              /></a>
+            </div>
 
+            <div class="carousel-item">
+              <a
+                href="images/carousel/kev_luke_phil_redroom.jpg"
+                data-lightbox="bandpics"
+                ><img
+                  class="carousel-img"
+                  src="images/carousel/kev_luke_phil_redroom.jpg"
+                  alt="Fifth slide"
+              /></a>
+            </div>
 
-        <!--Begin carousel Items -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>HELLO</h2>
-            <a href="/images/carousel/set_sail_all_2.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="/images/carousel/set_sail_all_2.jpg"
-                alt="First slide"
-            /></a>
+            <div class="carousel-item">
+              <a
+                href="images/carousel/kev_luke_phil_redroom.jpg"
+                data-lightbox="bandpics"
+                ><img
+                  class="carousel-img"
+                  src="images/carousel/kev_luke_phil_redroom.jpg"
+                  alt="Sixth slide"
+              /></a>
+            </div>
           </div>
 
-          <div class="carousel-item">
-            <a href="images/carousel/andy_kev_luke_set_sail.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="images/carousel/andy_kev_luke_set_sail.jpg"
-                alt="Second slide"
-            /></a>
-          </div>
+          <!--End Carousel Items-->
 
-          <div class="carousel-item">
-            <a href="images/carousel/kev_set_sail2.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="images/carousel/kev_set_sail2.jpg.jpg"
-                alt="Third slide"
-            /></a>
-          </div>
-
-          <div class="carousel-item">
-            <a href="images/carousel/phil_set_sail_2.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="images/carousel/phil_set_sail_2.jpg"
-                alt="Third slide"
-            /></a>
-          </div>
-
-          <div class="carousel-item">
-            <a href="images/carousel/kev_luke_phil_redroom.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="images/carousel/kev_luke_phil_redroom.jpg"
-                alt="Third slide"
-            /></a>
-          </div>
-
-          <div class="carousel-item">
-            <a href="images/carousel/kev_luke_phil_redroom.jpg" data-lightbox="bandpics"
-              ><img
-                class="carousel-img"
-                src="images/carousel/kev_luke_phil_redroom.jpg"
-                alt="Third slide"
-            /></a>
-          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <!--End Carousel Items-->
-
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
+      <!--end carousel-->
+
+      <!-- <img src="images/kev_luke_phil_oneils.jpg" class="cell-image"/> -->
+      
+    
+   <!-- <div class="info-grid text-center">
+        
+        <div class="a">A</div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+      
     </div>
-    <!--end carousel-->
-
-    <!-- <img src="images/kev_luke_phil_oneils.jpg" class="cell-image"/> -->
-
+     -->
     <footer>
       Designed and maintained by
       <a href="https://twitter.com/russ_schwartztt">T. Russell Schwartz</a>
@@ -266,7 +300,5 @@
     ></script>
     <script src="app.js" charset="utf-8"></script>
     <script src="scripts/lightbox2-master/dist/js/lightbox.js"></script>
-
-    
   </body>
 </HTML>
