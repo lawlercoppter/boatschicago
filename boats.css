@@ -92,13 +92,21 @@ footer {
   height: auto;
 }
 
-#twitch-link {
-  fill: RGB(100, 65, 164);
+.insta {
+  border: 1px soild black;
 }
 
-#insta-link {
+.bio {
+  margin: 30px;
+  padding: 30px;
+  opacity: 100% !important;
+  background: black;
+  text-decoration-color: white;
+  color: rgb(166, 255, 245);
 }
-
+.bio-image {
+  max-height: 300px;
+}
 .carousel-container {
   margin-bottom: 100px;
   padding-bottom: 100px;
